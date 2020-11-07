@@ -137,7 +137,14 @@ services:
       - target: 80
         published: 80
         protocol: tcp
-
+  adminer:
+    depends_on:
+      - db
+    restart: always
+    image: adminer:latest
+    ports:
+      - 8090:8090
+  
 volumes:
   db-data: {}
   dev-certs: {}
