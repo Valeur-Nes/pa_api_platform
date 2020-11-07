@@ -16,6 +16,9 @@
     "api-platform/schema-generator": {
         "version": "v2.2.2"
     },
+    "behat/transliterator": {
+        "version": "v1.3.0"
+    },
     "composer/package-versions-deprecated": {
         "version": "1.11.99"
     },
@@ -125,6 +128,9 @@
             ".php_cs.dist"
         ]
     },
+    "gedmo/doctrine-extensions": {
+        "version": "v3.0.0"
+    },
     "guzzlehttp/guzzle": {
         "version": "7.0.1"
     },
@@ -143,11 +149,29 @@
     "laminas/laminas-zendframework-bridge": {
         "version": "1.1.0"
     },
+    "lcobucci/jwt": {
+        "version": "3.3.3"
+    },
     "league/html-to-markdown": {
         "version": "4.10.0"
     },
+    "lexik/jwt-authentication-bundle": {
+        "version": "2.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.5",
+            "ref": "5b2157bcd5778166a5696e42f552ad36529a07a6"
+        },
+        "files": [
+            "config/packages/lexik_jwt_authentication.yaml"
+        ]
+    },
     "monolog/monolog": {
         "version": "2.1.1"
+    },
+    "namshi/jose": {
+        "version": "7.2.3"
     },
     "nelmio/cors-bundle": {
         "version": "1.5",
@@ -208,6 +232,18 @@
     },
     "ralouphie/getallheaders": {
         "version": "3.0.3"
+    },
+    "stof/doctrine-extensions-bundle": {
+        "version": "1.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.2",
+            "ref": "6c1ceb662f8997085f739cd089bfbef67f245983"
+        },
+        "files": [
+            "config/packages/stof_doctrine_extensions.yaml"
+        ]
     },
     "symfony/asset": {
         "version": "v5.1.3"
